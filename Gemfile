@@ -38,9 +38,14 @@ gem 'bootstrap-sass'
 
 gem 'devise'
 
+# Add pagination 
 gem 'will_paginate', '~> 3.0.6'
-
 gem 'will_paginate-bootstrap'
+
+# add markdown to blog posts with ability to code syntax
+# https://www.codefellows.org/blog/how-to-create-a-markdown-friendly-blog-in-a-rails-app
+gem 'redcarpet'
+gem 'coderay'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
