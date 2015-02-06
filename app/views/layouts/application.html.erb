@@ -6,6 +6,10 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%=javascript_include_tag "https://www.authy.com/form.authy.min.js" %>
+  <%=stylesheet_link_tag "https://www.authy.com/form.authy.min.css" %>
+  <%=javascript_include_tag "devise_authy.js" %>
+
 </head>
 <body>
 

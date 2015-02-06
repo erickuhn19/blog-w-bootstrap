@@ -37,6 +37,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 
 gem 'devise'
+gem 'devise-authy'
 
 # Add pagination 
 gem 'will_paginate', '~> 3.0.6'
